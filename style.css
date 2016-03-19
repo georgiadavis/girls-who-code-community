@@ -1,0 +1,119 @@
+body{
+  background-color: #FEFEFE;
+  font: 15px Open Sans, sans-serif;
+}
+
+h1 {
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h2 {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.logo-title {
+  text-align: center;
+  margin:0;
+  color: #6eceb2;
+}
+
+.logo{
+  height:100px;
+  width:200px;
+  margin:0 auto;
+  display:block;
+}
+
+
+
+.nav{
+  height:190px;
+  background:#01426a;
+  width:100%;
+  margin:0px;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #01426a;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-size: 1em;
+  line-height: 40px;
+  height: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #6eceb2;
+  display: block;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+@media screen and (min-width: 800px) {
+  .nav li {
+    text-decoration: none;
+    width: auto;
+    height: 50px;
+    font-size: 1.2em;
+  }
+
+.container{
+
+}
+
+.logo{
+
+}
+
+.heading1{
+
+}
+
+.search-box{
+
+}
+
+.button{
+
+}
+
+.heading2{
+
+}
+
+.event-section{
+
+}
+
+.event{
+
+}
+
+footer{
+
+}
