@@ -132,23 +132,28 @@ input{
 }
 
 .container{
-   margin: 30px 50px 30px 50px;
+   margin: 30px 90px 30px 90px;
    border: 1px dotted #FFCB05;
    border-radius: 25px;
    background-color:#FFF;
    padding: 20px;
+   /*text-align: center;*/
+   display: block;
 }
 
 .events-header{
   color:#FF5D82;
 }
 
-.event-section{
-text-align: center;
+.calendar-icon{
+  display:block;
+  float:left;
+  padding:2px;
+  margin: 6px;
 }
 
 .event{
-
+  display:inline;
 }
 
 footer{
