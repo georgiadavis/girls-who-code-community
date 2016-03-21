@@ -170,12 +170,12 @@ footer{
 .spotlight-description{
   float:right;
   width: 300px;
-  margin-right:20px;
+  margin-right:80px;
   margin-left:100px;
 
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .nav li {
     text-decoration: none;
     width: auto;
