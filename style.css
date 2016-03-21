@@ -44,7 +44,7 @@ p {
 }
 
 .nav li {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 40px;
   display: inline-block;
   margin-right: 15px;
@@ -54,17 +54,6 @@ p {
   text-decoration: none;
   color: #6eceb2;
   display: block;
-}
-
-
-@media screen and (min-width: 800px) {
-  .nav li {
-    text-decoration: none;
-    width: auto;
-    height: 50px;
-    font-size: 1.2em;
-    text-align: center;
-  }
 }
 
 .text-header {
@@ -157,5 +146,45 @@ input{
 }
 
 footer{
+  height:auto;
+  background:#6eceb2;
+  opacity: 0.7;
 
+}
+
+.spotlight{
+  float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.spotlight-img{
+  width:240px;
+  height: 150px;
+  padding: 20px ;
+  border-radius: 25px;
+}
+
+.spotlight-description{
+  float:right;
+  width: 300px;
+  margin-right:20px;
+  margin-left:100px;
+
+}
+
+@media screen and (max-width: 850px) {
+  .nav li {
+    text-decoration: none;
+    width: auto;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .spotlight-description {
+    display: none;
+  }
 }
